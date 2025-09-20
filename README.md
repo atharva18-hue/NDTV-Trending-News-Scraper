@@ -43,7 +43,9 @@ cd NDTV-Trending-News-Scraper
 --------------
 
 ## Install dependencies:
+
 pip install -r requirements.txt
+
 ----------------------------------------
 
 ## Recommended: 
@@ -107,8 +109,11 @@ Open a Pull Request
 
 ## Contact
 Author: Atharva Chavhan
+
 GitHub: atharva18-hue
+
 Email: atharvachavhan18@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/atharva-chavhan-b5742b259/
 
 ---------------------------------------------
