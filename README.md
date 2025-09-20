@@ -1,30 +1,20 @@
 # \# 📰 NDTV Trending News Scraper
 
-# 
+!\[Project Badge](https://img.shields.io/badge/Project-NDTV%20Scraper-blue)
 
-# !\[Project Badge](https://img.shields.io/badge/Project-NDTV%20Scraper-blue)
+ !\[Python Badge](https://img.shields.io/badge/Language-Python-green)
 
-# !\[Python Badge](https://img.shields.io/badge/Language-Python-green)
+!\[License Badge](https://img.shields.io/badge/License-MIT-yellow)
 
-# !\[License Badge](https://img.shields.io/badge/License-MIT-yellow)
+---
 
-# 
+## 🎯 Project Overview
 
-# ---
+The \*\*NDTV Trending News Scraper\*\* is a Python-based project designed to fetch the latest trending news articles from \[NDTV](https://www.ndtv.com/) in real-time. This project allows users to \*\*extract, analyze, and store trending news headlines and links\*\*, providing a simple way to stay updated with current events.
 
-# 
+ ---
 
-# \## 🎯 Project Overview
-
-# The \*\*NDTV Trending News Scraper\*\* is a Python-based project designed to fetch the latest trending news articles from \[NDTV](https://www.ndtv.com/) in real-time. This project allows users to \*\*extract, analyze, and store trending news headlines and links\*\*, providing a simple way to stay updated with current events.
-
-# 
-
-# ---
-
-# 
-
-# \## ✨ Features
+## ✨ Features
 
 # \- 🔹 Scrapes \*\*real-time trending news headlines\*\* from NDTV.
 
