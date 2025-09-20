@@ -1,7 +1,17 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 
-driver = webdriver.Chrome()
+options = Options()
+options.add_argument("--disable-gpu")
+options.add_argument("--disable-extensions")
+options.add_argument("--ignore-certificate-errors")  # SSL issues fix
+options.add_argument("--no-sandbox")
+
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
 driver.get("https://www.ndtv.com")
 
 driver.find_element(By.CSS_SELECTOR, "a[href*='latest']").click()
@@ -14,7 +24,5 @@ print("\n📰 Trending News:")
 print(headline)
 print(paragraph)
 
-
 driver.quit()
-
 
