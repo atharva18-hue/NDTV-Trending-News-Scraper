@@ -1,154 +1,100 @@
-# \# 📰 NDTV Trending News Scraper
+# 📰 NDTV Trending News Scraper
 
-!\[Project Badge](https://img.shields.io/badge/Project-NDTV%20Scraper-blue)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
+![Web Scraping](https://img.shields.io/badge/Web%20Scraping-BeautifulSoup-orange?style=for-the-badge)
+![Data Handling](https://img.shields.io/badge/Data-CSV/JSON-red?style=for-the-badge)
 
- !\[Python Badge](https://img.shields.io/badge/Language-Python-green)
-
-!\[License Badge](https://img.shields.io/badge/License-MIT-yellow)
+A **real-time trending news scraper** built in **Python**, designed to fetch and store the latest trending news from [NDTV](https://www.ndtv.com/).  
+Easily extract headlines, article links, and timestamps for analysis, automation, or staying up-to-date with current events.
 
 ---
 
-## 🎯 Project Overview
+## 🌟 Features
 
-The \*\*NDTV Trending News Scraper\*\* is a Python-based project designed to fetch the latest trending news articles from \[NDTV](https://www.ndtv.com/) in real-time. This project allows users to \*\*extract, analyze, and store trending news headlines and links\*\*, providing a simple way to stay updated with current events.
+| Category | Description |
+|----------|-------------|
+| 📰 **Trending News** | Fetches real-time trending headlines from NDTV. |
+| 🔗 **Article Links** | Extracts article URLs for easy access. |
+| 💾 **Data Storage** | Saves scraped data in CSV or JSON format for analysis. |
+| 🐍 **Lightweight Python Script** | Easy to use and maintain, no heavy dependencies. |
+| ⚡ **Dynamic Content Handling** | Works with modern web page structures efficiently. |
 
- ---
+---
 
-## ✨ Features
+## ⚙️ Technology Stack
 
-# \- 🔹 Scrapes \*\*real-time trending news headlines\*\* from NDTV.
+| Technology | Role |
+|------------|------|
+| ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square) | Core programming language |
+| ![Requests](https://img.shields.io/badge/Requests-HTTP-lightgrey?style=flat-square) | Send HTTP requests to NDTV |
+| ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Parsing-orange?style=flat-square) | Parse HTML and extract data |
+| ![Pandas](https://img.shields.io/badge/Pandas-Data-green?style=flat-square) | Store and manage CSV/JSON data |
+| ![Git](https://img.shields.io/badge/Git-Version%20Control-red?style=flat-square) | Track changes & push updates to GitHub |
+| ![OS](https://img.shields.io/badge/OS-Integration-yellow?style=flat-square) | File handling and directory management |
 
-# \- 🔹 Extracts \*\*article links\*\* for easy access.
+---
 
-# \- 🔹 Stores data in a \*\*structured format\*\* (CSV/JSON).
+## 💻 Installation
 
-# \- 🔹 Lightweight and easy-to-use \*\*Python script\*\*.
+1. **Clone the repository:**
+```bash
+git clone https://github.com/atharva18-hue/NDTV-Trending-News-Scraper.git
+cd NDTV-Trending-News-Scraper
+Install dependencies:
 
-# \- 🔹 Handles \*\*dynamic website content\*\* using modern web scraping techniques.
+bash
+Copy code
+pip install -r requirements.txt
+💡 Recommended: Use a virtual environment to avoid conflicts
 
-# 
+Run the scraper:
 
-# ---
+bash
+Copy code
+python ndtv_scraper.py
+🗂 Project Structure
+bash
+Copy code
+NDTV-Trending-News-Scraper/
+│
+├── ndtv_scraper.py       # Main Python script
+├── README.md             # Project documentation
+├── LICENSE               # MIT License
+└── requirements.txt      # Dependencies
+🚀 How It Works
+Sends a request to NDTV trending news page.
 
-# 
+Parses HTML using BeautifulSoup.
 
-# \## 💻 Technologies \& Skills Used
+Extracts headlines, article links, and timestamps.
 
-# \- \*\*Python\*\* 🐍  
+Saves the data into CSV/JSON for further analysis.
 
-# \- \*\*Web Scraping\*\*: `requests`, `BeautifulSoup`  
+📈 Future Enhancements
+GUI interface for non-technical users.
 
-# \- \*\*Data Handling\*\*: `pandas`  
+Automatic scheduling with cron jobs or Task Scheduler.
 
-# \- \*\*Version Control\*\*: Git \& GitHub  
+Advanced analytics and visualization of trending news.
 
-# \- \*\*Project Management\*\*: Structured, modular code for easy maintenance  
+📜 License
+This project is licensed under the MIT License - see LICENSE for details.
 
-# 
+Contribution
+Fork the repository
 
-# ---
+Create a feature branch (git checkout -b feature-name)
 
-# 
+Commit your changes (git commit -m "Add feature")
 
-# \## 🛠 Setup \& Installation
+Push to the branch (git push origin feature-name)
 
-# 1\. Clone the repository:
+Open a Pull Request
 
-# &nbsp;  ```bash
-
-# &nbsp;  git clone https://github.com/atharva18-hue/NDTV-Trending-News-Scraper.git
-
-# Navigate to the project folder:
-
-# 
-
-# bash
-
-# Copy code
-
-# cd NDTV-Trending-News-Scraper
-
-# Install required packages:
-
-# 
-
-# bash
-
-# Copy code
-
-# pip install -r requirements.txt
-
-# Run the script:
-
-# 
-
-# bash
-
-# Copy code
-
-# python ndtv\_scraper.py
-
-# 📂 Project Structure
-
-# bash
-
-# Copy code
-
-# NDTV-Trending-News-Scraper/
-
-# │
-
-# ├── ndtv\_scraper.py       # Main Python script
-
-# ├── README.md             # Project documentation
-
-# ├── LICENSE               # MIT License
-
-# └── requirements.txt      # Dependencies
-
-# 🚀 How It Works
-
-# The script sends a request to NDTV's trending news section.
-
-# 
-
-# Parses the HTML using BeautifulSoup.
-
-# 
-
-# Extracts headlines and article links.
-
-# 
-
-# Saves the data into CSV/JSON for further use.
-
-# 
-
-# 📈 Future Enhancements
-
-# GUI interface for non-technical users.
-
-# 
-
-# Automatic scheduling with cron jobs or task scheduler.
-
-# 
-
-# Advanced data analytics \& visualization of trending news.
-
-# 
-
-# 📜 License
-
-# This project is licensed under the MIT License. See the LICENSE file for details.
-
-# 
-
-# 💡 Contact
-
-# Atharva Chavhan
-
-# 📧 atharvachavhan18@gmail.com
-
-# 🔗 GitHub
+Contact
+Author: Atharva Chavhan
+GitHub: atharva18-hue
+Email: atharvachavhan18@gmail.com
+LinkedIn: https://www.linkedin.com/in/atharva-chavhan-b5742b259/
 
