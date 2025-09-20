@@ -38,31 +38,36 @@ Easily extract headlines, article links, and timestamps for analysis, automation
 ## 💻 Installation
 
 1. **Clone the repository:**
-```bash
 git clone https://github.com/atharva18-hue/NDTV-Trending-News-Scraper.git
 cd NDTV-Trending-News-Scraper
-Install dependencies:
+--------------
 
-bash
-Copy code
+## Install dependencies:
 pip install -r requirements.txt
-💡 Recommended: Use a virtual environment to avoid conflicts
+----------------------------------------
 
-Run the scraper:
+## Recommended: 
+Use a virtual environment to avoid conflicts
 
-bash
-Copy code
+-------------------------
+
+## Run the scraper:
 python ndtv_scraper.py
-🗂 Project Structure
-bash
-Copy code
+
+------------------------------
+
+## Project Structure
+
 NDTV-Trending-News-Scraper/
 │
 ├── ndtv_scraper.py       # Main Python script
 ├── README.md             # Project documentation
 ├── LICENSE               # MIT License
 └── requirements.txt      # Dependencies
-🚀 How It Works
+
+----------------------------------------------
+
+## How It Works
 Sends a request to NDTV trending news page.
 
 Parses HTML using BeautifulSoup.
@@ -71,17 +76,23 @@ Extracts headlines, article links, and timestamps.
 
 Saves the data into CSV/JSON for further analysis.
 
-📈 Future Enhancements
+--------------------------------------------------------
+
+## Future Enhancements
 GUI interface for non-technical users.
 
 Automatic scheduling with cron jobs or Task Scheduler.
 
 Advanced analytics and visualization of trending news.
 
-📜 License
+---------------------------------------------
+
+ ## License
 This project is licensed under the MIT License - see LICENSE for details.
 
-Contribution
+----------------------------------------------
+
+## Contribution
 Fork the repository
 
 Create a feature branch (git checkout -b feature-name)
@@ -92,9 +103,13 @@ Push to the branch (git push origin feature-name)
 
 Open a Pull Request
 
-Contact
+-------------------------------------
+
+## Contact
 Author: Atharva Chavhan
 GitHub: atharva18-hue
 Email: atharvachavhan18@gmail.com
 LinkedIn: https://www.linkedin.com/in/atharva-chavhan-b5742b259/
+
+---------------------------------------------
 
