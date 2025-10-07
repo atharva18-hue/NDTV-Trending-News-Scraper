@@ -38,10 +38,17 @@ Easily extract headlines, article links, and timestamps for analysis, automation
 
 ## Project Screenshot
 
-<img width="1906" height="1060" alt="Screenshot 2025-09-13 112234" src="https://github.com/user-attachments/assets/7ebfb593-f538-4c2b-ade2-3b5f1d4d1ea6" />
-<img width="1899" height="1070" alt="Screenshot 2025-09-13 111735" src="https://github.com/user-attachments/assets/4686839d-385f-48df-adff-33627871b04d" />
-<img width="1909" height="1068" alt="Screenshot 2025-09-13 111721" src="https://github.com/user-attachments/assets/b0fc32c4-291f-4fe6-b568-c3f889885ac6" />
 <img width="1919" height="1079" alt="Screenshot 2025-09-13 111652" src="https://github.com/user-attachments/assets/4898258c-1f97-478a-ac1f-9af3db8b11e2" />
+
+---------------------
+<img width="1909" height="1068" alt="Screenshot 2025-09-13 111721" src="https://github.com/user-attachments/assets/b0fc32c4-291f-4fe6-b568-c3f889885ac6" />
+
+----------------------------
+
+<img width="1899" height="1070" alt="Screenshot 2025-09-13 111735" src="https://github.com/user-attachments/assets/4686839d-385f-48df-adff-33627871b04d" />
+
+------------------------------------------------------------
+<img width="1906" height="1060" alt="Screenshot 2025-09-13 112234" src="https://github.com/user-attachments/assets/7ebfb593-f538-4c2b-ade2-3b5f1d4d1ea6" />
 
 ----------------------------------
 
