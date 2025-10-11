@@ -1,5 +1,5 @@
 
-# 📰 NDTV Trending News Scraper
+#  NDTV Trending News Scraper
 
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
@@ -11,19 +11,19 @@ Easily extract headlines, article links, and timestamps for analysis, automation
 
 ---
 
-## 🌟 Features
+##  Features
 
 | Category | Description |
 |----------|-------------|
-| 📰 **Trending News** | Fetches real-time trending headlines from NDTV. |
-| 🔗 **Article Links** | Extracts article URLs for easy access. |
-| 💾 **Data Storage** | Saves scraped data in CSV or JSON format for analysis. |
-| 🐍 **Lightweight Python Script** | Easy to use and maintain, no heavy dependencies. |
-| ⚡ **Dynamic Content Handling** | Works with modern web page structures efficiently. |
+|  **Trending News** | Fetches real-time trending headlines from NDTV. |
+|  **Article Links** | Extracts article URLs for easy access. |
+|  **Data Storage** | Saves scraped data in CSV or JSON format for analysis. |
+|  **Lightweight Python Script** | Easy to use and maintain, no heavy dependencies. |
+|  **Dynamic Content Handling** | Works with modern web page structures efficiently. |
 
 ---
 
-## ⚙️ Technology Stack
+##  Technology Stack
 
 | Technology | Role |
 |------------|------|
@@ -52,7 +52,7 @@ Easily extract headlines, article links, and timestamps for analysis, automation
 
 ----------------------------------
 
-## 💻 Installation
+##  Installation
 
 1. **Clone the repository:**
 git clone https://github.com/atharva18-hue/NDTV-Trending-News-Scraper.git
